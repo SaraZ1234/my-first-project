@@ -31,7 +31,7 @@ class FunFactsHomeState extends State<FunFactsHome> {
   String _fact = "Tap the button to reveal a fun fact";
 
   final List <String> _facts = [
-"I love to travel with Khadija, Sania and Suleman",
+"I love travelling",
     "I like to rest",
     "I am introvert",
     "I like coding",
@@ -65,7 +65,7 @@ class FunFactsHomeState extends State<FunFactsHome> {
              children: [
                CircleAvatar(
                  radius: 80,
-                 backgroundImage: NetworkImage('https://www.google.com/imgres?q=image%20in%20jpg%20smaller%20circular%20logo&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-psd%2Frestaurant-vintage-badge-template-psd-set-remixed-from-public-domain-artworks_53876-141767.jpg%3Fsemt%3Dais_hybrid%26w%3D740&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fsmall-circle-logo&docid=Ovzj9709aykOHM&tbnid=LUe9d5DusHWxqM&vet=12ahUKEwi9kbH99eiMAxXYSfEDHVDwIDsQM3oECFoQAA..i&w=740&h=740&hcb=2&ved=2ahUKEwi9kbH99eiMAxXYSfEDHVDwIDsQM3oECFoQAA'),
+                 backgroundImage: NetworkImage('https://images.unsplash.com/photo-1506744038136-46273834b3fb'),
 
                ),
                SizedBox(height: 28,),
